@@ -1,0 +1,151 @@
+
+body {
+    margin: 0;
+    background-color: white;
+}
+
+.board {
+    width: 700px;
+    height: 700px;
+    margin: 20px auto;
+
+    display: grid;
+    grid-template-columns: 6fr 3fr 6fr;
+    grid-template-rows: 6fr 3fr 6fr;
+}
+
+/* Home boxes */
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.red {
+    background-color: red;
+}
+
+.green-home {
+    background-color: green;
+}
+
+.blue-home {
+    background-color: blue;
+}
+
+.yellow-home {
+    background-color: yellow;
+}
+
+/* Inner white box */
+
+.inner {
+    width: 66%;
+    height: 66%;
+    background-color: white;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+/* Circles */
+
+.coin {
+    width: 40px;
+    height: 40px;
+    border: 5px solid;
+    border-radius: 50%;
+}
+
+.red .coin {
+    border-color: red;
+}
+
+.green-home .coin {
+    border-color: green;
+}
+
+.blue-home .coin {
+    border-color: blue;
+}
+
+.yellow-home .coin {
+    border-color: yellow;
+}
+
+/* Paths */
+
+.path {
+    display: grid;
+}
+
+.path div {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+/* Vertical paths */
+
+.vertical {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+}
+
+/* Horizontal paths */
+
+.horizontal {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+/* Path colours */
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+/* Centre box */
+
+.center {
+    position: relative;
+}
+
+.triangle {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.green-triangle {
+    background-color: green;
+    clip-path: polygon(50% 0, 0 50%, 100% 50%);
+}
+
+.red-triangle {
+    background-color: red;
+    clip-path: polygon(0 0, 50% 50%, 0 100%);
+}
+
+.yellow-triangle {
+    background-color: yellow;
+    clip-path: polygon(100% 0, 100% 100%, 50% 50%);
+}
+
+.blue-triangle {
+    background-color: blue;
+    clip-path: polygon(0 100%, 100% 100%, 50% 50%);
+}
