@@ -1,0 +1,52 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 5px;
+}
+
+.left {
+    display: flex;
+    gap: 15px;
+}
+
+.right {
+    display: flex;
+    gap: 15px;
+}
+
+.card {
+    width: 130px;
+    height: 220px;
+    border: 2px solid lightgray;
+    border-radius: 7px;
+    box-shadow: 0px 0px 4px gray;
+    text-align: center;
+}
+
+.image {
+    height: 115px;
+}
+
+.card p {
+    font-size: 16px;
+    margin: 3px;
+}
+
+.card h1 {
+    font-size: 40px;
+    font-weight: normal;
+    margin: 3px;
+}
+
+.score {
+    font-size: 40px;
+    margin-left: 110px;
+    margin-right: 110px;
+}
