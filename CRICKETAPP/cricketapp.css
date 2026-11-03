@@ -1,0 +1,93 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+
+    /* IMAGE LAGAO: Background image URL */
+    background-image:url(backgroud.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    text-align: right;
+    padding: 15px 60px;
+}
+
+.logo img {
+    width: 180px;
+    height: auto;
+}
+
+.main {
+    margin-left: 60px;
+    width: 980px;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 0;
+    text-shadow: 2px 3px 4px gray;
+}
+
+h2 {
+    color: gray;
+    font-size: 24px;
+    margin-top: 5px;
+    margin-bottom: 35px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0px 2px 8px lightgray;
+}
+
+td, th {
+    padding: 12px 10px;
+    font-size: 18px;
+    border-bottom: 1px solid lightgray;
+    text-align: center;
+}
+
+.heading {
+    background-color: #f45136;
+    color: white;
+}
+
+.heading th:first-child {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.heading th:last-child {
+    text-align: right;
+    padding-right: 20px;
+}
+
+.columns td:first-child {
+    text-align: left;
+}
+
+.name {
+    color: #3985ed;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.out {
+    color: gray;
+    text-align: left;
+}
+
+.left {
+    text-align: left;
+}
+
+.not-bat {
+    color: #3985ed;
+    text-align: left;
+}
